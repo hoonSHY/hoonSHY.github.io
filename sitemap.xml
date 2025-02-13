@@ -1,0 +1,17 @@
+---
+layout: null
+---
+
+
+    {% for post in site.posts %}
+    
+        {{ site.url }}{{ post.url }}
+        {% if post.lastmod == null %}
+        {{ post.date | date_to_xmlschema }}
+        {% else %}
+        {{ post.lastmod | date_to_xmlschema }}
+        {% endif %}
+        weekly
+        0.8
+    
+    {% endfor %}

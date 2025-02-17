@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Github 블로그 시작하기"
 date: 2024-02-10 13:30:00 +09:00
 categories: [Blog, Github]
